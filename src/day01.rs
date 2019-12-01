@@ -30,7 +30,7 @@ pub struct Day01Puzzle{
 }
 
 fn secret_calculation(v:&i32)->i32{
-    (v/3).saturating_sub(2)
+    (v/3) - 2
 }
 
 
