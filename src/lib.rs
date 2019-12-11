@@ -1,3 +1,4 @@
+
 pub trait ParsedInput{
     fn parse(input:&String)->Self;
 }
